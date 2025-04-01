@@ -1,0 +1,71 @@
+:root {
+    box-sizing: border-box;
+    --original-text-color: black;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    list-style: none;
+    list-style-type: none;
+    background-color: transparent;
+    border: none;
+}
+
+*::after {
+    clear: both;
+}
+
+* {
+    position: relative;
+    word-wrap: break-word;
+}
+
+html,
+body {
+    color: var(--original-text-color);
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+}
+
+ul,
+li {
+    list-style: none;
+    list-style-type: none;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: var(--original-text-color);
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    float: none;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
